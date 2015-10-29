@@ -4,9 +4,9 @@
 
 2. In <b>/libraries/joomla/document/document.php</b> add after
 
-<code>public $_scripts = array();</code><br>
+````public $_scripts = array();````<br>
 this<br>
-<code>public $_footer_scripts = array();</code>
+````public $_footer_scripts = array();````
 
 3. Add method **addFooterScript()** after the **addScript()** method 
 
