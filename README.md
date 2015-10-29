@@ -4,6 +4,20 @@
 
 2. In <b>/libraries/joomla/document/document.php</b> add after
 
-<code>public $_scripts = array();</code>
-this
+<code>public $_scripts = array();</code><br>
+this<br>
 <code>public $_footer_scripts = array();</code>
+
+3. Add method **addFooterScript()** after the **addScript()** method 
+
+```php
+function addFooterScript($url, $type = "text/javascript", $defer = false, $async = false) {
+	$this->_footer_scripts[$url]['mime'] = $type;
+	$this->_footer_scripts[$url]['defer'] = $defer;
+	$this->_footer_scripts[$url]['async'] = $async;
+	return $this;
+ }
+```
+
+4. In index.php in you template folder add just before the </body> tag <br>
+````<jdoc:include type="footer" />````
