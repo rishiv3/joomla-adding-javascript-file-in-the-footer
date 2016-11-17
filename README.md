@@ -30,3 +30,6 @@ Now in layouts inside your template's folder you can use the following code to a
 	$doc =& JFactory::getDocument();
 	$doc->addFooterScript('JavaScript_File_Path.js');
 	````
+
+
+Nest Step : plugin 
