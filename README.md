@@ -32,4 +32,4 @@ Now in layouts inside your template's folder you can use the following code to a
 	````
 
 
-Nest Step : create plugin  
+Nest Step : create plugin for this issue
