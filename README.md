@@ -20,13 +20,13 @@
 	```
 
 4. In index.php in you template folder add just before the </body> tag <br>
-	````<jdoc:include type="footer" />````
+	````
+	<jdoc:include type="footer" />
+	````
 
-5. Done!
-<br>
-Now in layouts inside your template's folder you can use the following code to add javascript files to footer:
+5. Done! <br> Now in layouts inside your template's folder you can use the following code to add javascript files to footer:
 
-	````PHP
+	````
 	$doc =& JFactory::getDocument();
 	$doc->addFooterScript('JavaScript_File_Path.js');
 	````
