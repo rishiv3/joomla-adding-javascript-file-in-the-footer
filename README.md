@@ -26,7 +26,7 @@
 <br>
 Now in layouts inside your template's folder you can use the following code to add javascript files to footer:
 
-	````php
+	````PHP
 	$doc =& JFactory::getDocument();
 	$doc->addFooterScript('JavaScript_File_Path.js');
 	````
