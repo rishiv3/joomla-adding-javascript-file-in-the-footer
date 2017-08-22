@@ -32,4 +32,4 @@
 	````
 
 
-### TODO : create plugin for this
+### TODO : create plugin/setting for this
