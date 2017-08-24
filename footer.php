@@ -1,5 +1,5 @@
 <?php
-// No direct access to this file
+// No direct access
 defined('JPATH_BASE') or die;
 
 /**
