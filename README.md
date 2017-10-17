@@ -30,6 +30,3 @@
 	$doc =& JFactory::getDocument();
 	$doc->addFooterScript('JavaScript_File_Path.js');
 	````
-
-
-### TODO : create plugin/setting for this
