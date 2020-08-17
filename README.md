@@ -30,3 +30,5 @@
 	$doc =& JFactory::getDocument();
 	$doc->addFooterScript('JavaScript_File_Path.js');
 	````
+
+TODO : check for updates...
